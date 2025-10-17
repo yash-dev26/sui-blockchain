@@ -120,20 +120,6 @@ Copy the Package ID from the deployment output.
 - **`init()`**: Initializes the contract and creates admin capability
 - **`mint_loyalty()`**: Mints a new loyalty card NFT
 
-### Data Structures
-
-```move
-public struct Loyalty has key, store {
-    id: UID,
-    customer_id: address,
-    image_url: String
-}
-
-public struct AdminCap has key, store {
-    id: UID
-}
-```
-
 ## 🧪 Testing
 
 Run the Move contract tests:
@@ -172,15 +158,6 @@ Through building this project, I gained hands-on experience with:
 - **Wallet Integration**: Implementing wallet connectivity and transaction signing
 - **NFT Standards**: Creating and managing digital assets on Sui
 - **Testing & Deployment**: Full development lifecycle on blockchain
-
-## 🤝 Contributing
-
-This is a learning project, but feel free to:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your improvements
-4. Submit a pull request
 
 ## 📄 License
 
